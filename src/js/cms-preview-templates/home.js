@@ -14,6 +14,9 @@ export default class PostPreview extends React.Component {
     }
 
     return <div>
+      <div>
+      1112233344
+      </div>
         <Jumbotron image={image} title={entry.getIn(["data", "title"])} subtitle={entry.getIn(["data", "subtitle"])}/>
 
         <div className="bg-grey-1 pv4">
